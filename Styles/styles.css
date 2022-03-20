@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+*,*::after,
+*::before{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+:root{
+  --clr--body:#B8C4BB;
+  --clr--button:#1B9AAA;
+  font-family: 'Ubuntu', sans-serif;
+}
+html{
+  font-size:16px;
+}
+
+/* body styling */
+body{
+  font-style: 'Ubuntu', sans-serif;
+  background-color:#B8C4BB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+justify-content: center;  
+min-height:100vh;
+padding:1.4rem;
+}
+
+/* container */
+.title{
+  background-color: #F786AA;
+  padding:1rem;
+  color:white;
+  border-radius: 15px;
+}
+
+.title:hover{
+  background-color: #F1D6B8; 
+  color:rgb(53, 48, 48);
+}
+
+.desc{
+  background-color: #EC9DED;
+  color:rgba(109, 88, 88, 0.692);
+  padding:1rem;
+  margin-top:1rem;
+  font-size: 1.5rem;
+}
+
+/* image */
+.my-img{
+  width: 200px;
+  height:150px;
+  border-radius: 10px;
+  margin:1rem;
+}
+
+
+/* currency  part styling */
+select{
+  padding:0.5rem;
+  margin-bottom: 1rem;
+-moz-appearance: none;
+-webkit-appearance: none;
+appearance: none;
+color: white;
+background-color: #007CBE;
+border-radius:2px;
+}
+
+.currency input{
+  padding:0.5rem;
+  border: 2px solid  #313D5A;
+  border-radius: 5px;
+}
+
+select:focus,
+input:focus{
+  outline:none;
+}
+
+/* code link styling */
+a{
+  text-decoration: none;
+}
